@@ -10,6 +10,7 @@ function App() {
   
   return (
   <div className="App">
+    <h1>hello earth-2</h1>
     <Regime mode={mode} changeMode = {setMode}/>
     <TourList mode={mode}/>
     <Footer mode={mode}/>
